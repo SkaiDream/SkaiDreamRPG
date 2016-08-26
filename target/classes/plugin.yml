@@ -1,0 +1,5 @@
+name: SkaiDreamRPG
+version: 1.0.0-SNAPSHOT
+author: makedream29
+main: com.gmail.makedream29.SkaiDreamRPG.server.SkaiDreamRPG
+description: SkaiDreamRPG is provide your own role play game (RPG) in Minecraft. 
