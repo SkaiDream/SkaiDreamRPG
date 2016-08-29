@@ -9,7 +9,7 @@ package com.gmail.makedream29.SkaiDreamRPG.metadata;
 public abstract interface Expable
 {
 	/**
-	 * <code>setExperience()</code> is used differently depending on the type of Entity:<br><br>
+	 * <code>setExperience()</code> is used differently depending on the type of Entity:<br></br>
 	 * 1. If the Human Entity Type monsters, you set a number of experience points you get killed this monster <br>
 	 * 2. If the type of player, set the player's experience.<br><br>
 	 * 
@@ -18,14 +18,14 @@ public abstract interface Expable
 	 * 
 	 * @param arg0 The amount of experience points
 	 * @return 
-	 * @see com.gmail.makedream29.RPGCustomAPI.metadata.Expable#getExperience()
+	 * @see #getExperience()
 	 */
 	public abstract boolean setExperience(double arg0);
 	
 	/**
 	 * It returns a number of experience points. See the {@link #setExperience(double)} for more information.
 	 * @return return the experience points if existing, otherwise <code>0.0D</code>.
-	 * @see com.gmail.makedream29.RPGCustomAPI.metadata.Expable#setExperience(double)
+	 * @see #setExperience(double)
 	 */
 	public abstract double getExperience();
 }

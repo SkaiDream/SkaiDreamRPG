@@ -1,16 +1,14 @@
 package com.gmail.makedream29.SkaiDreamRPG.component;
 
-import com.devrean.Rcore.metadata.Named;
+import com.gmail.makedream29.SkaiDreamRPG.Named;
 
 public interface ItemQuality extends Named
 {
 	public ItemQuality get(Object arg0);
-
-	@Override
-	public String getName();
-
-	@Override
+	
 	public String getDisplayName();
+	
+	public String getName();
 	
 	public int getQuantify();
 	

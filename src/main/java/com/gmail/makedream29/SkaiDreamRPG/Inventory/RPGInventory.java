@@ -4,8 +4,6 @@ import java.util.Collection;
 
 import org.bukkit.inventory.Inventory;
 
-import com.gmail.makedream29.RPGCustomAPI.item.RPGItem;
-
 public abstract interface RPGInventory extends RPGExtraInventory
 {
 	public abstract Inventory getInventoryType(boolean arg0);

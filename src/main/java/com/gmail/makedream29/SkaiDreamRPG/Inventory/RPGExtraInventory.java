@@ -1,7 +1,5 @@
 package com.gmail.makedream29.SkaiDreamRPG.Inventory;
 
-import com.gmail.makedream29.RPGCustomAPI.item.RPGItem;
-
 public abstract interface RPGExtraInventory
 {
 	public abstract void setLeftRing(RPGItem arg0);
